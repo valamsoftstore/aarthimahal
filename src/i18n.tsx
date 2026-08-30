@@ -179,7 +179,7 @@ const dict = {
   },
 } as const;
 
-type Dict = (typeof dict)["en"];
+type Dict = { [K in keyof (typeof dict)["en"]]: string };
 
 const hallsTa: Record<string, { name: string; blurb: string; capacity: string; area: string; tags: string[] }> = {
   "raja-sabha": {
