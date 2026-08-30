@@ -1,0 +1,15 @@
+{
+  "name": "Valam Mahal",
+  "short_name": "Valam",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F6EFE2",
+  "theme_color": "#5C1220",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
