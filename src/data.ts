@@ -170,14 +170,14 @@ export const contact = {
   tamil: "ஆர்த்தி மஹால்",
   address: "Enjar Cross, near Good Shepherd CBSE School, Sivakasi, Injar, Tamil Nadu 626124",
   plusCode: "FPGW+R8 Sivakasi, Tamil Nadu, India",
-  lat: 9.4775707,
-  lng: 77.7451597,
+  lat: 9.4770031,
+  lng: 77.7457531,
   phone: "080120 50999",
   phoneHref: "tel:08012050999",
   whatsapp: "https://wa.me/918012050999",
   email: "bookings@valammahal.in",
   hours: "Open daily · 8:00 AM – 10:00 PM",
-  mapUrl: "https://www.google.com/maps/search/?api=1&query=9.4775707%2C77.7451597",
+  mapUrl: "https://www.google.com/maps/search/?api=1&query=9.4770031%2C77.7457531",
   mapEmbed:
-    "https://maps.google.com/maps?q=9.4775707,77.7451597&z=18&hl=en&output=embed",
+    "https://maps.google.com/maps?q=9.4770031,77.7457531&z=18&hl=en&output=embed",
 };

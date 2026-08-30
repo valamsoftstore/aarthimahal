@@ -40,8 +40,8 @@ export function Home() {
               style={{ objectPosition: item.pos }}
             />
           ))}
+          <div className="hero__veil" />
         </div>
-        <div className="hero__veil" />
         <div className="hero__stage">
           <p className="hero__tamil">ஆர்த்தி மஹால்</p>
           <p className="hero__line">Beautiful halls. Impeccable service.</p>
