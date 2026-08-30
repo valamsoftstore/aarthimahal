@@ -15,6 +15,7 @@ const bannerSlides = [
 export function Home() {
   const { lang, t } = useLang();
   const [slide, setSlide] = useState(0);
+  const [prev, setPrev] = useState(0);
 
   useEffect(() => {
     bannerSlides.forEach((item) => {
@@ -22,7 +23,10 @@ export function Home() {
       img.src = item.src;
     });
     const tick = window.setInterval(() => {
-      setSlide((n) => (n + 1) % bannerSlides.length);
+      setSlide((n) => {
+        setPrev(n);
+        return (n + 1) % bannerSlides.length;
+      });
     }, 12000);
     return () => window.clearInterval(tick);
   }, []);
@@ -34,7 +38,7 @@ export function Home() {
           {bannerSlides.map((item, i) => (
             <img
               key={item.src}
-              className={`hero__shot${i === slide ? " is-on" : ""}`}
+              className={`hero__shot${i === slide ? " is-on" : ""}${i === prev && i !== slide ? " is-off" : ""}`}
               src={item.src}
               alt=""
               style={{ objectPosition: item.pos }}
@@ -43,6 +47,7 @@ export function Home() {
           <div className="hero__veil" />
         </div>
         <div className="hero__stage">
+          <p className="hero__kicker">Heritage · Sivakasi</p>
           <p className="hero__tamil">ஆர்த்தி மஹால்</p>
           <p className="hero__line">Beautiful halls. Impeccable service.</p>
           <div className="hero__actions">
