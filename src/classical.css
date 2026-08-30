@@ -54,7 +54,7 @@ body {
 }
 
 .hero {
-  min-height: min(78dvh, 700px);
+  min-height: 0;
 }
 
 .hero h1 {

@@ -175,9 +175,10 @@ export const contact = {
   phone: "080120 50999",
   phoneHref: "tel:08012050999",
   whatsapp: "https://wa.me/918012050999",
-  email: "bookings@valammahal.in",
+  email: "aarathimahal@gmail.com",
   hours: "Open daily · 8:00 AM – 10:00 PM",
-  mapUrl: "https://www.google.com/maps/search/?api=1&query=9.4770031%2C77.7457531",
+  mapUrl:
+    "https://www.google.com/maps/search/?api=1&query=Aarthi+Mahal+-+%E0%AE%86%E0%AE%B0%E0%AF%8D%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF+%E0%AE%AE%E0%AE%B9%E0%AE%BE%E0%AE%B2%E0%AF%8D,+Enjar+Cross,+Sivakasi",
   mapEmbed:
-    "https://maps.google.com/maps?q=9.4770031,77.7457531&z=18&hl=en&output=embed",
+    "https://maps.google.com/maps?q=Aarthi+Mahal+-+%E0%AE%86%E0%AE%B0%E0%AF%8D%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF+%E0%AE%AE%E0%AE%B9%E0%AE%BE%E0%AE%B2%E0%AF%8D,+Enjar+Cross,+Sivakasi&z=17&hl=en&output=embed",
 };

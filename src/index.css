@@ -367,8 +367,10 @@ h2 {
   position: relative;
   z-index: 3;
   isolation: isolate;
+  flex: none;
   width: 100%;
   max-width: none;
+  min-height: 0;
   margin: 0;
   border-radius: 0;
   overflow: hidden;
@@ -382,7 +384,8 @@ h2 {
 .hero__media {
   position: relative;
   width: 100%;
-  aspect-ratio: 2 / 1;
+  aspect-ratio: 16 / 9;
+  max-height: 34vh;
   background-color: #4a1018;
 }
 
@@ -395,7 +398,7 @@ h2 {
 .hero__shot {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center center;
   opacity: 0;
   transition: opacity 1.1s ease;
