@@ -113,7 +113,9 @@
 
 .marquee {
   overflow: hidden;
-  margin: 20px -16px 8px;
+  width: 100%;
+  max-width: 100%;
+  margin: 20px 0 8px;
   border-block: 1px solid rgba(201, 164, 76, 0.28);
   background: rgba(255, 250, 241, 0.55);
 }
@@ -394,8 +396,8 @@
   }
 
   .marquee {
-    margin-left: -24px;
-    margin-right: -24px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
 }
